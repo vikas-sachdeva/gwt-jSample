@@ -2,6 +2,6 @@ eclipse.preferences.version=1
 gwtMavenModuleName=gwt.jsample.Custom_Panel_Widget_Client
 gwtMavenModuleShortName=Custom_Panel_Widget_Client
 jarsExcludedFromWebInfLib=
-lastWarOutDir=F\:/mine/eclipse/repo/gwt-jsample_workspace/Custom_Panel_Widget_Client/target/Custom_Panel_Widget_Client-1.0
+lastWarOutDir=F\:/mine/eclipse/repo/gwt-jsample/Custom_Panel_Widget_Client/target/Custom_Panel_Widget_Client-1.0
 warSrcDir=src/main/webapp
 warSrcDirIsOutput=false
