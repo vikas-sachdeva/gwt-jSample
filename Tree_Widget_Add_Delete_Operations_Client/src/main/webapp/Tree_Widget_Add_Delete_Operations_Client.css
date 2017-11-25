@@ -1,0 +1,36 @@
+body, html {
+	height: 100%
+}
+
+body {
+	display: flex;
+	margin: 0;
+	flex-direction: column;
+	text-align: center;
+	font-family: verdana, sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #777777;
+	margin: 40px 0px 70px;
+	text-align: center;
+}
+
+.gwt-Tree .gwt-TreeItem {
+	padding: 1px 0px;
+	margin: 0px;
+	white-space: nowrap;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.gwt-Tree .gwt-TreeItem-selected {
+	background: #ebeff9;
+}
+
+#gwtContainer {
+	margin-left: auto;
+	margin-right: auto;
+}
