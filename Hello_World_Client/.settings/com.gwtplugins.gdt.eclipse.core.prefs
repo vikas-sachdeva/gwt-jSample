@@ -2,6 +2,6 @@ eclipse.preferences.version=1
 gwtMavenModuleName=gwt.jsample.Hello_World_Client
 gwtMavenModuleShortName=Hello_World_Client
 jarsExcludedFromWebInfLib=
-lastWarOutDir=F\:/mine/eclipse/repo/gwt-jsample_workspace/Hello_World_Client/target/Hello_World_Client-1.0
+lastWarOutDir=F\:/mine/eclipse/repo/gwt-jsample/Hello_World_Client/target/Hello_World_Client-1.0
 warSrcDir=src/main/webapp
 warSrcDirIsOutput=false
