@@ -24,7 +24,8 @@
 
 	<!-- An HTMLPanel is a common choice for use as a top level widget, since 
 		it allows to mix raw html and widgets within the template. -->
-
+	<!-- For HTML elements, declare style classes using class attribute.
+	     For GWT widgets, declare style classes using styleName attribute. -->
 	<g:HTMLPanel>
 		<h1>Message</h1>
 		<div ui:field="message" class="{style.message}" />
