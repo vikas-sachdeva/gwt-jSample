@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+gwtMavenModuleName=gwt.jsample.Ui_Binder_Grid_Client
+gwtMavenModuleShortName=Ui_Binder_Grid_Client
+jarsExcludedFromWebInfLib=
+lastWarOutDir=F\:/mine/eclipse/repo/gwt-jsample/Ui_Binder_Grid_Client/target/Ui_Binder_Grid_Client-1.0
+warSrcDir=src/main/webapp
+warSrcDirIsOutput=false

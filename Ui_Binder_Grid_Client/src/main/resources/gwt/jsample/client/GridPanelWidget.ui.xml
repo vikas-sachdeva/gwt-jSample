@@ -1,0 +1,115 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<ui:style>
+	.headerRow {
+		background: #DDDDDD;
+		color: black;
+		display: block;
+		font-size: 16pt;
+		margin: auto;
+		font-weight: bold
+	}
+	
+	.dataRow {
+		background: white;
+		color: black;
+		display: block;
+		font-size: 16pt;
+		margin: auto;
+	}
+	</ui:style>
+	<g:Grid ui:field="grid">
+
+		<g:row styleName="{style.headerRow}">
+			<g:customCell>
+				<g:Label>Property</g:Label>
+			</g:customCell>
+			<g:customCell>
+				<g:Label>Value</g:Label>
+			</g:customCell>
+		</g:row>
+		<g:row styleName="{style.dataRow}">
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+		</g:row>
+
+		<g:row styleName="{style.dataRow}">
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+		</g:row>
+
+		<g:row styleName="{style.dataRow}">
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+		</g:row>
+
+		<g:row styleName="{style.dataRow}">
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+		</g:row>
+
+		<g:row styleName="{style.dataRow}">
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+		</g:row>
+
+		<g:row styleName="{style.dataRow}">
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+		</g:row>
+
+		<g:row styleName="{style.dataRow}">
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+		</g:row>
+
+		<g:row styleName="{style.dataRow}">
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+		</g:row>
+
+		<g:row styleName="{style.dataRow}">
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+			<g:customCell>
+				<g:Label></g:Label>
+			</g:customCell>
+		</g:row>
+
+	</g:Grid>
+</ui:UiBinder> 
