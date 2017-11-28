@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>gwt.jsample</groupId>
+	<artifactId>Ui_Binder_Horizontal_Panel_Client</artifactId>
+	<packaging>war</packaging>
+	<version>1.0</version>
+	<name>Ui_Binder_Horizontal_Panel_Client Maven Webapp</name>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<build>
+		<outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</outputDirectory>
+
+		<plugins>
+
+			<plugin>
+				<groupId>net.ltgt.gwt.maven</groupId>
+				<artifactId>gwt-maven-plugin</artifactId>
+				<version>1.0-rc-6</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>import-sources</goal>
+							<goal>compile</goal>
+							<goal>import-test-sources</goal>
+							<goal>test</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<moduleName>gwt.jsample.Ui_Binder_Horizontal_Panel_Client</moduleName>
+					<moduleShortName>Ui_Binder_Horizontal_Panel_Client</moduleShortName>
+					<failOnError>true</failOnError>
+					<sourceLevel>1.8</sourceLevel>
+					<compilerArgs>
+						<arg>-compileReport</arg>
+						<arg>-XcompilerMetrics</arg>
+					</compilerArgs>
+					<warDir>${project.build.directory}/${project.build.finalName}</warDir>
+					<classpathScope>compile+runtime</classpathScope>
+					<startupUrls>
+						<startupUrl>Ui_Binder_Horizontal_Panel_Client.html</startupUrl>
+					</startupUrls>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
