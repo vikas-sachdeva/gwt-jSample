@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+gwtMavenModuleName=gwt.jsample.Grid_Widget_Client
+gwtMavenModuleShortName=Grid_Widget_Client
+jarsExcludedFromWebInfLib=
+lastWarOutDir=F\:/mine/eclipse/repo/gwt-jsample/Grid_Widget_Client/target/Grid_Widget_Client-1.0
+warSrcDir=src/main/webapp
+warSrcDirIsOutput=false

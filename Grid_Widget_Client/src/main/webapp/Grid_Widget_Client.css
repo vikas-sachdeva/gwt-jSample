@@ -1,0 +1,57 @@
+body {
+	display: flex;
+	margin: 0;
+	flex-direction: column;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #777777;
+	margin: 40px 0px 70px;
+	text-align: center;
+}
+
+#gwtContainer {
+	margin: auto;
+}
+
+#propertyGrid {
+	width: 600px;
+	border: 1px solid black;
+}
+
+#propertyGrid .headerRow {
+	background: #f7f7f7;
+	color: black;
+	display: block;
+	margin: auto;
+	font-weight: bold
+}
+
+#propertyGrid .dataRow {
+	background: white;
+	color: black;
+	display: block;
+	margin: auto;
+}
+
+#propertyGrid th, td {
+	border: 1px solid black;
+	text-align: left;
+	width: 300px;
+}
+
+#propertyGrid select, label, input[type="text"] {
+	width: 100%;
+	border: none;
+	border-color: transparent;
+}
+
+#propertyGrid input[type="text"] {
+	border: none;
+	border-color: transparent;
+	width: 100%;
+	padding: 0px;
+}
