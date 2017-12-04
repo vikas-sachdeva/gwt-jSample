@@ -37,13 +37,13 @@ h1 {
 	margin: auto;
 }
 
-#propertyGrid th, td {
+#propertyGrid th, #propertyGrid td {
 	border: 1px solid black;
 	text-align: left;
 	width: 300px;
 }
 
-#propertyGrid select, label, input[type="text"] {
+#propertyGrid select, #propertyGrid label, #propertyGrid input[type="text"] {
 	width: 100%;
 	border: none;
 	border-color: transparent;
