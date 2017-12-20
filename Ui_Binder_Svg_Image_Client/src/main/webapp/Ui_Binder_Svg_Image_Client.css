@@ -1,0 +1,23 @@
+body, html {
+	height: 100%
+}
+
+body {
+	display: flex;
+	margin: 0;
+	flex-direction: column;
+	text-align: center;
+	font-family: verdana, sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #777777;
+	text-align: center;
+}
+
+#gwtContainer {
+	margin-left: auto;
+	margin-right: auto;
+}

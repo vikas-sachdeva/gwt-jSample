@@ -1,0 +1,20 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:svg="urn:import:org.vectomatic.dom.svg.ui">
+
+	<!-- An HTMLPanel is a common choice for use as a top level widget, since 
+		it allows to mix raw html and widgets within the template. -->
+
+	<!-- Specify path of ClientBundle sub class that contains reference of SVG 
+		Image -->
+	<ui:with field='resources' type='gwt.jsample.client.SvgImageBundle' />
+
+	<g:HTMLPanel>
+		<h1>SVG Image</h1>
+		<div>
+			<!-- Specify name of reference variable for SVG Image in `resource` attribute -->
+			<svg:SVGImage ui:field="myImage" resource="{resources.sampleSvg}" />
+		</div>
+	</g:HTMLPanel>
+
+</ui:UiBinder> 
