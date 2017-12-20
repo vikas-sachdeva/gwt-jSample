@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+gwtMavenModuleName=gwt.jsample.SVG_Image_Client
+gwtMavenModuleShortName=SVG_Image_Client
+jarsExcludedFromWebInfLib=
+lastWarOutDir=F\:/mine/eclipse/repo/gwt-jsample/SVG_Image_Client/target/SVG_Image_Client-1.0
+warSrcDir=src/main/webapp
+warSrcDirIsOutput=false
